@@ -18,8 +18,10 @@
 &nbsp; - Project Contributors: \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - GitBart (gitbart74859) \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Kacu (Ptysiek) \
+&nbsp; \
 &nbsp; - Branch `master` is intended for CodersSchool oryginal content \
 &nbsp;&nbsp;&nbsp; with an exception for documentation and markdown files. \
+&nbsp; \
 &nbsp; - Branch `SHM-master` is the target branch for everything related to shm code.
 
 
