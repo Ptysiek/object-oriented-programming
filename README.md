@@ -1,57 +1,93 @@
-# Object Oriented Programming
+# SHM Project
 
-<a href="https://coders.school">
-    <img width="500" data-src="coders_school_logo.png" src="coders_school_logo.png" alt="Coders School" class="plain">
-</a>
+**Table of contents:**  
+&nbsp;&nbsp;&nbsp;&nbsp; - [Go to the CodersSchool Readme](/documentation/CodersSchool/README.md) \
+&nbsp;&nbsp;&nbsp;&nbsp; - [Project overview](#overview) \
+&nbsp;&nbsp;&nbsp;&nbsp; - [Workflow cheat sheet](#workflow) \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [1. Choose a task for yourself](#1-choose-a-task-for-yourself) \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2. Create branch](#2-create-branch) \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [3. Work](#3-work) \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4. Post-Work](#4-post-work)
 
-## [Moduł 1](module1/)
 
-### [Wprowadzenie do programowania obiektowego](module1/presentation_oop_intro.md)
 
-### [Modyfikatory dostępu](module1/presentation_access_modifiers.md)
+<br/><br/>
+-------------
+### Overview
 
-### [Konstruktory i destruktory](module1/presentation_ctor_dtor.md)
+&nbsp; - Project Contributors: \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - GitBart (gitbart74859) \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Kacu (Ptysiek) \
+&nbsp; - Branch `master` is intended for CodersSchool oryginal content \
+&nbsp;&nbsp;&nbsp; with an exception for documentation and markdown files. \
+&nbsp; - Branch `SHM-master` is the target branch for everything related to shm code.
 
-### [Hermetyzacja](module1/presentation_hermetization.md)
 
-### [Zadania](module1/presentation_tasks.md)
 
-### [Projekt grupowy](module1/presentation_homework.md)
+<br/><br/>
+-------------
+### Workflow
+### 1. Choose a task for yourself
 
-## [Moduł 2](module2/)
+&nbsp; Go to the `Projects` tab and select the one you are working on. 
+![](/documentation/Workflow/projectTab.png)
 
-### [Dziedziczenie](module2/presentation_inheritance.md)
+&nbsp; Select your task from the `ToDo` column. Drag and drop it into the `InProgress` column. \
+&nbsp; Don't take more than one task. If you want to reserve a task drag it into `PlannedForTomorrow` column. \
+&nbsp; Your task in the `PlannedForTomorrow` column will be your next task to drag into `InProgress`. Don't take more than one also.
+![](/documentation/Workflow/dragNdropTask.png)
 
-### [Metody wirtualne, interfejsy, klasy abstrakcyjne](module2/presentation_virtual.md)
+&nbsp; You can learn more about selected task by clicking on its title. \
+&nbsp; From this side-panel Assign yourself to the task. 
+![](/documentation/Workflow/assign.png)
 
-### [Polimorfizm](module2/presentation_polymorphism.md)
 
-### [Zmienne i funkcje statyczne](module2/presentation_static.md)
 
-### [Projekt grupowy](module2/presentation_homework.md)
+### 2. Create branch
 
-## [Moduł 3](module3/)
+&nbsp; 1. Make sure that you are on `shm-master` branch. \
+&nbsp; 2. Make sure that the `shm-master` branch is up to date. \
+&nbsp; 3. Create new branch. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - First number is always the index of the task / issue. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Next copy-paste the title of that task. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Always use lower case characters for branches. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - KebabCase. Turn all spaces into: `-` \
+&nbsp;&nbsp;&nbsp;&nbsp; \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Examples: \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Task title: `CS-Task1` Task index: `#1` Branch name: `1-cs-task1` \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Task title: `Describe project workflow` Task index: `#3` Branch name: `3-describe-project-workflow` \
+&nbsp; 4. Set branch upstream to itself.
+![](/documentation/Workflow/createBranch.png)
 
-### [Przykładowe rozwiązania](module3/presentation_solutions.md)
 
-### [Polimorfizm](module3/presentation_polymorphism.md)
 
-### [Zmienne i funkcje statyczne](module3/presentation_static.md)
+### 3. Work
 
-### [Projekt grupowy](module3/presentation_homework.md)
+&nbsp; Get your task done. \
+&nbsp; Each commit start with index of your task, it's the same index as your current branch. \
+&nbsp; Use lower case characters. \
+&nbsp; Don't use KebabCase for commits, use spaces instead. \
+&nbsp; Describe your commit shortly in past tense. \
+&nbsp; For example, on branch `1-cs-task1` the commit could look like `1 created new Store class`. \
+&nbsp; And for `3-describe-project-workflow` branch the possible commit is `3 moved screanshots into documentation catalog`. 
 
-## [Moduł 4](module4/)
 
-### [Cztery filary obiektowości](module4/pillars.md)
 
-### [Abstrakcja](module4/abstraction.md)
+### 4. Post-Work
 
-### [Enkapsulacja](module4/encapsulation.md)
+&nbsp; It's time to create `Pull Request`. Find your way into branches list and push `New Pull Request` from your branch.
+![](/documentation/Workflow/intoBranchesList.png)
 
-### [Dziedziczenie](module4/inheritance.md)
+&nbsp; 1. Change target repository. \
+&nbsp; 2. Change target branch into `SHM-master`.  \
+&nbsp; 3. Press `Create pull request`.
+![](/documentation/Workflow/createPullReq.png)
 
-### [Polimorfizm](module4/polymorphism.md)
+&nbsp; 4. From the right panel link `issue` and assign `project`. \
+&nbsp; 5. Optionally fill up the remaining { Reviewers, Assignees, Labels }, \
+&nbsp; 6. Go to the `Projects` tab and move your task into the `InReview` column.
 
-### [Zadanie](module4/exercise_cars.md)
 
-### [Post-work](module4/post_work.md)
+
+<br/><br/>
+
