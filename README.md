@@ -29,16 +29,18 @@
 ### Workflow
 ### 1. Choose a task for yourself
 
-&nbsp; Go to the `Projects` tab and select the one you are working on. 
+&nbsp; 1. Go to the `Projects` tab and select the one you are working on. 
 ![](/documentation/Workflow/projectTab.png)
 
-&nbsp; Select your task from the `ToDo` column. Drag and drop it into the `InProgress` column. \
-&nbsp; Don't take more than one task. If you want to reserve a task drag it into `PlannedForTomorrow` column. \
-&nbsp; Your task in the `PlannedForTomorrow` column will be your next task to drag into `InProgress`. Don't take more than one also.
+&nbsp; 2. Select your task from the `ToDo` column. Drag and drop it into the `InProgress` column. \
+&nbsp;&nbsp;&nbsp;&nbsp; Don't take more than one task. \
+&nbsp;&nbsp;&nbsp;&nbsp; If you want to reserve a task drag it into `PlannedForTomorrow` column. \
+&nbsp;&nbsp;&nbsp;&nbsp; Your task in the `PlannedForTomorrow` column will be your next task to drag into `InProgress`. \
+&nbsp;&nbsp;&nbsp;&nbsp; Also don't take more than one.
 ![](/documentation/Workflow/dragNdropTask.png)
 
-&nbsp; You can learn more about selected task by clicking on its title. \
-&nbsp; From this side-panel Assign yourself to the task. 
+&nbsp; 3. You can learn more about selected task by clicking on its title. \
+&nbsp;&nbsp;&nbsp;&nbsp; From this side-panel Assign yourself to the task. 
 ![](/documentation/Workflow/assign.png)
 
 
@@ -69,7 +71,8 @@
 &nbsp; Don't use KebabCase for commits, use spaces instead. \
 &nbsp; Describe your commit shortly in past tense. \
 &nbsp; For example, on branch `1-cs-task1` the commit could look like `1 created new Store class`. \
-&nbsp; And for `3-describe-project-workflow` branch the possible commit is `3 moved screanshots into documentation catalog`. 
+&nbsp; And for `3-describe-project-workflow` branch \
+&nbsp; the possible commit is `3 moved screanshots into documentation catalog`. 
 
 
 
@@ -84,7 +87,7 @@
 ![](/documentation/Workflow/createPullReq.png)
 
 &nbsp; 4. From the right panel link `issue` and assign `project`. \
-&nbsp; 5. Optionally fill up the remaining { Reviewers, Assignees, Labels }, \
+&nbsp; 5. Optionally fill up the remaining { Reviewers, Assignees, Labels } \
 &nbsp; 6. Go to the `Projects` tab and move your task into the `InReview` column.
 
 
