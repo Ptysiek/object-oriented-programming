@@ -23,7 +23,7 @@
 &nbsp; - Branch `master` is intended for CodersSchool oryginal content \
 &nbsp;&nbsp;&nbsp; with an exception for documentation and markdown files. \
 &nbsp; \
-&nbsp; - Branch `SHM-master` is the target branch for everything related to shm code. \
+&nbsp; - Branch `shm-master` is the target branch for everything related to shm code. \
 &nbsp;&nbsp;&nbsp; Your branches should start from it and be merged into it.
 
 
@@ -89,7 +89,7 @@
 ![](/documentation/Workflow/intoBranchesList.png)
 
 &nbsp; 1. Change target repository. \
-&nbsp; 2. Change target branch into `SHM-master`.  \
+&nbsp; 2. Change target branch into `shm-master`.  \
 &nbsp; 3. Press `Create pull request`.
 ![](/documentation/Workflow/createPullReq.png)
 
