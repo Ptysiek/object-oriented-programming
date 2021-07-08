@@ -23,7 +23,8 @@
 &nbsp; - Branch `master` is intended for CodersSchool oryginal content \
 &nbsp;&nbsp;&nbsp; with an exception for documentation and markdown files. \
 &nbsp; \
-&nbsp; - Branch `SHM-master` is the target branch for everything related to shm code.
+&nbsp; - Branch `SHM-master` is the target branch for everything related to shm code. \
+&nbsp;&nbsp;&nbsp; Your branches should start from it and be merged into it.
 
 
 
