@@ -7,7 +7,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [1. Choose a task for yourself](#1-choose-a-task-for-yourself) \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2. Create branch](#2-create-branch) \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [3. Work](#3-work) \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4. Post-Work](#4-post-work)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4. Post-Work](#4-post-work) \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Creating new tasks](#creating-new-tasks)
 
 
 
@@ -47,6 +48,7 @@
 
 
 
+<br/><br/>
 ### 2. Create branch
 
 &nbsp; 1. Make sure that you are on `shm-master` branch. \
@@ -65,6 +67,7 @@
 
 
 
+<br/><br/>
 ### 3. Work
 
 &nbsp; Get your task done. \
@@ -78,6 +81,7 @@
 
 
 
+<br/><br/>
 ### 4. Post-Work
 
 &nbsp; It's time to create `Pull Request`. Find your way into branches list and push `New Pull Request` from your branch.
@@ -95,4 +99,15 @@
 
 
 <br/><br/>
+### Creating new tasks 
 
+&nbsp; Don't create tasks from `Projects` tab. Go to the `Issues` tab instead. \
+&nbsp; Write English only. \
+&nbsp; Add `description`, it's a good thing to copy-paste link \
+&nbsp; to the task from coders school or to the thread from code review. \
+&nbsp; Create new issue, assign `project` and `labels`. \
+&nbsp; Task unique index will be generated automatically so you don't need to think about it.
+
+
+
+<br/><br/>
