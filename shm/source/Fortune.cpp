@@ -1,14 +1,14 @@
 #include "Fortune.hpp"
 
-std::random_device Fortune::_randomDevice;
-std::mt19937 Fortune::_randomEngine(_randomDevice());
+std::random_device randomDevice;
+std::mt19937 randomEngine(randomDevice());
 
 int Fortune::getNumber(int first, int last) {
     if (first > last) {
         std::swap(first, last);
     }
     std::uniform_int_distribution<int> distribution(first, last);
-    return distribution(_randomEngine);
+    return distribution(randomEngine);
 }
 
 std::vector<int> Fortune::getNumbersEvenlyDistributed(int first, int last, const int n) {
@@ -28,5 +28,5 @@ std::vector<int> Fortune::getNumbersEvenlyDistributed(int first, int last, const
 }
 
 void Fortune::shuffle(std::vector<int>& vector) {
-	std::shuffle(vector.begin(), vector.end(), _randomEngine);
+	std::shuffle(vector.begin(), vector.end(), randomEngine);
 }
