@@ -11,6 +11,7 @@ project(SHM)
 # set executables
 set(THIS_PROJECT_SRC_DIRECTORIES
     source/Map.cpp
+    source/Game.cpp
 )
 set(THIS_PROJECT_TESTS_DIRECTORIES
 )
