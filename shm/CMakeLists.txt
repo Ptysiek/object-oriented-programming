@@ -16,6 +16,7 @@ set(THIS_PROJECT_SRC_DIRECTORIES
     source/Cargo.cpp
     source/Player.cpp
     source/Ship.cpp
+    source/Fruit.cpp
 )
 set(THIS_PROJECT_TESTS_DIRECTORIES
 )
