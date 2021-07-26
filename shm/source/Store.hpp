@@ -3,11 +3,12 @@
 #include "Cargo.hpp"
 #include "Player.hpp"
 #include "Time.hpp"
+#include "Observer.hpp"
 
 #include <memory>
 #include <vector>
 
-class Store {
+class Store : Observer {
 	enum class Response {
 		Done, 
 		Lack_of_money, 
@@ -19,24 +20,24 @@ class Store {
 	// std::vector<std::unique_ptr<Cargo>> cargo_;
 
 public:
-	//Store(Time* time);
+	// Store(Time* time);
 
-	//~Store() override;
+	// ~Store() override;
 
-	//void NextDay() override;
+	void nextDay() override;
 	
-	//Cargo* GetCargo(const size_t pos);
+	// Cargo* GetCargo(const size_t pos);
 	
-	//Response Buy(Cargo* cargo, size_t amount, Player* player);
+	// Response Buy(Cargo* cargo, size_t amount, Player* player);
 	
-	//Response Sell(Cargo* caergo, size_t amount, Player* player);
+	// Response Sell(Cargo* caergo, size_t amount, Player* player);
 	
-	//friend std::ostream& operator<<(std::ostream& out, const Store& store);
+	// friend std::ostream& operator<<(std::ostream& out, const Store& store);
 
 private:
-	//void GenerateCargo();
+	// void GenerateCargo();
 	
-	//Cargo* FindMatchCargo(Cargo* cargo);
+	// Cargo* FindMatchCargo(Cargo* cargo);
 	
-	//void RemoveFromStore(Cargo* cargo);
+	// void RemoveFromStore(Cargo* cargo);
 };
