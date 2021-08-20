@@ -17,7 +17,6 @@
 ### Overview
 
 &nbsp; - Project Contributors: \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - GitBart (gitbart74859) \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Kacu (Ptysiek) \
 &nbsp; \
 &nbsp; - Branch `master` is intended for CodersSchool oryginal content \
